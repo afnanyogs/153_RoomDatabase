@@ -37,5 +37,7 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun EntrySiswaScreen(
-   )
+    navigateBack: () -> Unit,
+    modifier: Modifier = Modifier,
+    viewModel: EntryViewModel = viewModel(factory = PenyediaViewModel.Factory)
 )
