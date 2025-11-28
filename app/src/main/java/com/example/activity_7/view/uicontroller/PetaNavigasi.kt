@@ -14,5 +14,5 @@ import com.example.activity_7.view.route.DestinasiHome
 
 @Composable
 fun SiswaApp(navController: NavHostController = rememberNavController(), modifier: Modifier){
-
+    HostNavigasi(navController = navController)
 }
