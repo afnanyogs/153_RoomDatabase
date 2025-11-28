@@ -1,5 +1,6 @@
 package com.example.activity_7
 
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -12,19 +13,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.activity_7.ui.theme.Activity_7Theme
+import com.example.activity_7.view.uicontroller.SiswaApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Activity_7Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+           Activity_7Theme {  }
+            Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                SiswaApp(
+                    modifier = Modifier.padding(innerPadding)
+                )
             }
         }
     }
