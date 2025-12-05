@@ -2,4 +2,5 @@
 <img width="1920" height="1080" alt="Screenshot 2025-11-28 140109" src="https://github.com/user-attachments/assets/fe757b95-d9ed-462e-8844-37c6247c37d6" />
 (https://github.com/user-attachments/assets/6ff0d742-80f5-475a-a089-847f188f24c9)
 (https://github.com/user-attachments/assets/8920d587-a7d3-438a-8c4f-7a8335474426)
-(https://github.com/user-attachments/assets/01c51bf4-b7f0-4f44-8376-d18ecc8a6340)
+
+![TUGAS DETAIL](https://github.com/user-attachments/assets/cde3155f-3f5d-4196-b286-76c99acb6a84)
