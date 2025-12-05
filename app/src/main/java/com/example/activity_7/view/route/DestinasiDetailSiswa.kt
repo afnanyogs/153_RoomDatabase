@@ -4,4 +4,8 @@ import com.example.activity_7.R
 
 object DestinasiDetailSiswa : DestinasiNavigasi {
 
+
+    const val itemIdArg = "idSiswa"
+
+
 }
